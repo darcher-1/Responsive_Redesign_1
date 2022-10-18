@@ -1,0 +1,86 @@
+.project_body {
+    background-color: white;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+
+    gap: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+
+    flex-wrap: wrap-reverse;
+
+}
+.header {
+    font-size: 60px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.header1 {
+    font-size: 50px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 20px;
+}
+.two_pane_1{
+    display: flex;
+    align-items: center;
+    
+}
+.two_pane_2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+
+}
+.img1 {
+    width: 50vw;
+    border-radius: 30px;
+    flex-grow: 1;
+    padding: 20px;
+}
+.img2 {
+    width: 70vw;
+    border-radius: 30px;
+    flex-grow: 2;
+    padding: 20px;
+}
+.lo_fi_container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 50px;
+}
+.textbox {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.website_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.website_container > div {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.website_container > div > button:hover {
+    background: grey;
+}
+.two_pane_2 > button {
+    background-color: yellow;
+}
+.two_pane_2 > button:hover {
+    background-color: grey;
+}

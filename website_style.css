@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: #659dbd;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #daad86;
+    text-align: center;
+}
+.map{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: #daad86;
+    border-style: solid;
+    border-color: #fbecc1;
+    border-width: 5px;
+    padding: 20px;
+}
+.map > div {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.weather{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: #659dbd;
+    border-style: solid;
+    border-color: #8d8741;
+    border-width: 5px;
+    padding: 20px;
+}
+.weather > div {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.weather > div > img {
+    width: 100%;
+    border-radius: 30px;
+}
+.blog {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    background-color: #fbeec1;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #659dbd;
+    padding: 20px;
+
+}
+.blog > div {
+    display: flex;
+    padding: 20px;
+}
+.blog > div > button {
+    background-color: #bc986a;
+}
+.blog > div > button:hover {
+    background-color: grey;
+}
+.radio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #8d8741;
+    border-style: solid;
+    border-color: #daad86;
+    border-width: 5px;
+    margin: 0 -5px;
+}
+.radio > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    padding: 40px;
+    margin: 0 5px;
+}
+.radio > div > button {
+    background-color: #659dbd;
+    margin: 10px;
+}
+.radio > div > button:hover {
+    background-color: grey;
+
+}
+.radio :nth-child(2) > button {
+    background: #daad86;
+}
+.button2 {
+    background-color: black;
+
+}
+.menu {
+}
+.menu nav {
+    background-color: #8d8741;
+    display: flex;
+    width: 100%;
+}
+.menu nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+.menu nav ul li {
+    list-style: none;
+    flex: 1 1 0;
+}
+.menu nav ul li a {
+    text-decoration: none;
+    font-size: 14;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+.menu nav a:hover{
+    background-color: grey;
+}
